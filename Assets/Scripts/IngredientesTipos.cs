@@ -4,8 +4,13 @@ public class IngredientesTipos : MonoBehaviour
 {
     public enum IngredientType
     {
-        Tomate,
-        Lechuga,
-        Queso
+        BayBolete,
+        BayBolete_Group,
+
+        InkCap,
+        InkCap_Group,
+
+        FlyAgaric,
+        FlyAgaric_Group
     }
 }

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 512827427781486273}
   - component: {fileID: 3757546033102187703}
   - component: {fileID: 5982145899079172508}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Fly_Agaric_Group_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -99,9 +99,11 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9042503873088940868}
-  m_Layer: 0
-  m_Name: Fly_Agaric_Group_1
-  m_TagString: Untagged
+  - component: {fileID: 4563041120267305359}
+  - component: {fileID: 1633502297644838254}
+  m_Layer: 3
+  m_Name: Fly_Agaric_Group
+  m_TagString: PickUp
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -116,9 +118,43 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 3.58684, y: 1.17935, z: 3.64394}
-  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 512827427781486273}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4563041120267305359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518204590573695486}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0b27f2794371244582cc5f8eb47d4c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Ingredientes
+  tipoIngrediente: 5
+--- !u!65 &1633502297644838254
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8518204590573695486}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.16057985, y: 0.17704597, z: 0.13714905}
+  m_Center: {x: -0.0005110443, y: 0.10109754, z: -0.01187439}

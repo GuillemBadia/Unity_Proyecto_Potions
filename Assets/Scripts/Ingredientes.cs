@@ -1,13 +1,7 @@
 using UnityEngine;
+using static IngredientesTipos;
 
-public enum IngredientType
-{
-    Tomate,
-    Lechuga,
-    Queso
-}
-
-public class Ingredient : MonoBehaviour
+public class Ingredientes : MonoBehaviour
 {
     public IngredientType tipoIngrediente;
 
