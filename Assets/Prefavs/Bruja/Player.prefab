@@ -190,6 +190,7 @@ GameObject:
   - component: {fileID: 9077208886286560687}
   - component: {fileID: 360404040435985417}
   - component: {fileID: 956707549729583136}
+  - component: {fileID: 2071636204943229069}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -293,6 +294,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CamaraHorizontal
   rotationSpeed: 0.2
+--- !u!114 &2071636204943229069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2377989759924265116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51d139bf7aff5dc4ebb07d8e29ad6e6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Inventario
 --- !u!1 &8701408131269862851
 GameObject:
   m_ObjectHideFlags: 0

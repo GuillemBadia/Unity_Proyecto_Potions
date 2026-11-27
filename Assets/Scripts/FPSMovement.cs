@@ -28,15 +28,11 @@ public class FPSMovement : MonoBehaviour
     void Update()
     {
         Vector2 movimientoInput = inputs.Player.Move.ReadValue<Vector2>();
-
         Vector3 dir = new Vector3(movimientoInput.x, 0, movimientoInput.y);
-
         dir = Vector3.ClampMagnitude(dir, 1f);
-
         Vector3 dirLocal = dir;
 
         dir = transform.TransformDirection(dir);
-
         RaycastHit hit;
 
         Debug.DrawRay(transform.position, -transform.up * distance, Color.red);
